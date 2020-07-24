@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">合风出行</string>
+    <string name="service_phone">031596505</string>
+    <string name="phone_hide">您当前的手机号为%1$s</string>
+    <string name="phone_hint_tip">设置密码需先验证您的手机号%1$s</string>
+    <string name="id_card">0123456789Xx</string>
+    <string name="ticket_cancel_rule"><![CDATA[<<退票须知>>]]></string>
+    <string name="dialog">是否要取消订单？</string>
+    <string name="pageAndSizes" translatable="false">%d/%d</string>
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+</resources>

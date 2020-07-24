@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/title_back"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:padding="@dimen/dp_4"
+            android:background="@mipmap/icon_mine"/>
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/title_back2"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/title_back"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:padding="@dimen/dp_10"
+            android:src="@mipmap/back"/>
+        <TextView
+            android:layout_centerInParent="true"
+            android:id="@+id/title_str"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black_text"
+            android:textStyle="bold"
+            android:text="合风出行"/>
+
+        <ImageView
+            android:id="@+id/iv_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@mipmap/icon_msg"
+            android:clickable="true"
+            />
+</RelativeLayout>
