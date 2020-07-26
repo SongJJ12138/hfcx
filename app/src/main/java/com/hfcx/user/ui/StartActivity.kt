@@ -11,6 +11,7 @@ import com.amap.api.location.AMapLocationListener
 import com.hfcx.user.ui.Order.BusOrder.BusMainActivity
 import com.hfcx.user.R
 import com.hfcx.user.dialogs.LoginDialog
+import com.hfcx.user.ui.Order.CarOrder.CarMainActivity
 import com.hfcx.user.ui.user.MessageActivity
 import com.hfcx.user.utils.Const
 import com.hfcx.user.utils.StatusBarUtil
@@ -61,6 +62,7 @@ class StartActivity : BaseActivity(),  AMapLocationListener {
             startActivity<BusMainActivity>()
         }
         bt_taxi.onClick {
+            startActivity<CarMainActivity>()
 
         }
         bt_wuliu.onClick {

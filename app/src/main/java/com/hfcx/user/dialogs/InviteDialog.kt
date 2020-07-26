@@ -14,6 +14,7 @@ import com.share.utils.ShareUtils
 import com.umeng.socialize.UMShareListener
 import com.umeng.socialize.bean.SHARE_MEDIA
 import com.umeng.socialize.media.UMImage
+import kotlinx.android.synthetic.main.dialog_argee.*
 import kotlinx.android.synthetic.main.dialog_invite.*
 import org.jetbrains.anko.matchParent
 import org.jetbrains.anko.sdk25.coroutines.onClick
@@ -34,6 +35,9 @@ class InviteDialog : DialogFragment() {
         dialog.window.setLayout(matchParent, wrapContent)
         dialog.window.setGravity(Gravity.BOTTOM)
         dialog.setCanceledOnTouchOutside(true)
+        dialog_close.onClick {
+            dismiss()
+        }
     }
 
     private val userId by lazy {

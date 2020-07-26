@@ -22,7 +22,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ui.PayActivity"></activity>
+        <activity android:name=".ui.Order.CarOrder.BusPwdActivity"></activity>
+        <activity android:name=".ui.Order.CarOrder.CarMainActivity" />
+        <activity android:name=".ui.PayActivity" />
         <activity android:name=".ui.Order.BusOrder.AppPeopleActivity" />
         <activity android:name=".ui.Order.BusOrder.MapSelectActivity" />
         <activity android:name=".ui.Order.BusOrder.BusDetialActivity" />
@@ -132,7 +134,6 @@
         <activity android:name=".ui.user.ChangePhoneActivity" />
         <activity android:name=".ui.user.VerifyPhoneActivity" />
         <activity android:name=".ui.user.CouponActivity" />
-        <activity android:name=".ui.PayActivity" />
         <activity android:name=".ui.PaySuccessActivity" />
         <activity android:name=".ui.user.EditActivity" />
         <activity android:name=".ui.user.MyCouponActivity" />

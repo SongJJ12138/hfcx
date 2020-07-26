@@ -248,7 +248,10 @@ fun String?.parserDate(format: String = "yyyy-MM-dd HH:mm:ss"): Date {
         Date()
     }
 }
-
+fun date2String(date:Date):String {
+    val simpleDateFormat = SimpleDateFormat("yyyy-MM-dd")
+    return  simpleDateFormat.format(date)
+}
 fun Long.timeDay(nowTime: Long = System.currentTimeMillis()): String {
     val desc: String
     val c = Calendar.getInstance()

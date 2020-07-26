@@ -433,7 +433,7 @@
             android:textColor="#ff999999"
             android:textSize="@dimen/sp_10"/>
         <TextView
-            android:id="@+id/xieyi"
+            android:id="@+id/bus_xieyi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/bluediss"
@@ -446,7 +446,7 @@
             android:textSize="@dimen/sp_10"
             android:text="和"/>
         <TextView
-            android:id="@+id/guize"
+            android:id="@+id/bus_guize"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/bluediss"

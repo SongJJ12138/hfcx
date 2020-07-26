@@ -8,11 +8,17 @@ import com.bigkoo.pickerview.OptionsPickerView
 import com.hfcx.user.R
 import com.hfcx.user.adapter.PelpleAdapter
 import com.hfcx.user.beans.People
+import com.hfcx.user.dialogs.ArgeeDialog
 import com.hfcx.user.ui.BaseActivity
 import com.hfcx.user.ui.PayActivity
 import com.hfcx.user.utils.gone
 import com.hfcx.user.utils.visible
 import kotlinx.android.synthetic.main.activity_bus_detial.*
+import kotlinx.android.synthetic.main.activity_bus_detial.down_station
+import kotlinx.android.synthetic.main.activity_bus_detial.tv_downstation
+import kotlinx.android.synthetic.main.activity_bus_detial.tv_upstation
+import kotlinx.android.synthetic.main.activity_bus_detial.up_station
+import kotlinx.android.synthetic.main.activity_car_main.*
 import org.jetbrains.anko.sdk25.coroutines.onClick
 import org.jetbrains.anko.startActivity
 import org.jetbrains.anko.startActivityForResult
@@ -96,6 +102,14 @@ class BusDetialActivity : BaseActivity() {
         }
         bt_pay.onClick {
             startActivity<PayActivity>("money" to 2.0,"size" to 2,"time" to System.currentTimeMillis(),"id" to 1,"type" to 2,"ticketId" to "1258012138")
+        }
+        bus_xieyi.onClick {
+            var dialog= ArgeeDialog(this@BusDetialActivity,"sdjsdhk","sjdsad")
+            dialog.show()
+        }
+        bus_guize.onClick {
+            var dialog= ArgeeDialog(this@BusDetialActivity,"sdjsdhk","sjdsad")
+            dialog.show()
         }
     }
 
